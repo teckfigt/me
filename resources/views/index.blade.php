@@ -3,5 +3,9 @@
 @section('title', 'home')
 
 @section('content')
-<p>ためし</p>
+<div class="container theme-showcase" role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <a href="#" class="btn btn-primary btn-large">やってみる</a>
+        </div>
 @stop
