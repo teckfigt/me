@@ -11,7 +11,7 @@
           <div class="page-header">
             <h1>好きを登録</h1>
           </div>
-          <form action="" method="get">
+          <form action="likelist" method="get">
             <div class="form-group">
               <label for="pass">すき</label>
               <input type="text" class="form-control" name="pass" placeholder="すきを入力">
