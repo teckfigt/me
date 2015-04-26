@@ -5,9 +5,9 @@
 @section('content')
 <div class="container theme-showcase" role="main">
 <ul class="list-group"  ondragover="f_dragover(event)" ondrop="f_drop(event)">
-    <a href="#"><li class="list-group-item" draggable="true" ondragstart="f_dragstart(event)" id="item1">商品1</li></a>
-    <li class="list-group-item">商品2</li>
-    <li class="list-group-item">商品3</li>
+    <li class="list-group-item" draggable="true" ondragstart="f_dragstart(event)" id="item1">商品1</li>
+    <li class="list-group-item" draggable="true" ondragstart="f_dragstart(event)" id="item2">商品2</li>
+    <li class="list-group-item" draggable="true" ondragstart="f_dragstart(event)" id="item3">商品3</li>
 </ul>
 <div class="jumbotron drop-destination" id="dropbox" ondragover="f_dragover(event)" ondrop="f_drop(event)">
 	</div>

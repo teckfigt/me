@@ -9,7 +9,7 @@
 
 
           <div class="page-header">
-            <h1>好きを登録</h1>
+            <h2>すきを登録</h2>
           </div>
           <form action="likelist" method="get">
             <div class="form-group">
