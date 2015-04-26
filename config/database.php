@@ -26,8 +26,8 @@ return [
 	|
 	*/
 
-	/*'default' => 'mysql',*/
-	'default' => 'sqlite',
+	'default' => 'mysql',
+	/*'default' => 'sqlite',*/
 
 	/*
 	|--------------------------------------------------------------------------
@@ -74,6 +74,7 @@ return [
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
+			'port' => '33060',
 		],
 
 		'sqlsrv' => [
