@@ -11,24 +11,29 @@
 |
 */
 
+/*Route::get('/', function()
+{
+    return public_path().'home.html';
+});*/
+
 Route::get('/', function()
 {
-    return view('index');
+    include public_path().'/under/under.html';
 });
 
-Route::get('register', function()
+Route::get('/register', function()
 {
     return view('register');
 });
 
-Route::get('likelist', function()
+Route::get('/likelist', function()
 {
     return view('likelist');
 });
 
-Route::get('home', function()
+Route::get('/menu', function()
 {
-    return view('home');
+    return view('menu');
 });
 
 Route::controllers([
