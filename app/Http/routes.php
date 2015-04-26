@@ -16,14 +16,19 @@ Route::get('/', function()
     return view('index');
 });
 
+Route::get('register', function()
+{
+    return view('register');
+});
+
+Route::get('likelist', function()
+{
+    return view('likelist');
+});
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-
-Route::get('register', function()
-{
-    return view('register');
-});
