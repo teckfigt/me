@@ -26,7 +26,10 @@ Route::get('likelist', function()
     return view('likelist');
 });
 
-Route::get('home', 'HomeController@index');
+Route::get('home', function()
+{
+    return view('home');
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
