@@ -3,6 +3,12 @@
 @section('title', 'すきリスト')
 
 @section('content')
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+<script>$('#widget').draggable();</script>
+
 <div class="container theme-showcase" role="main">
 <ul class="list-group"  ondragover="f_dragover(event)" ondrop="f_drop(event)">
     <li class="list-group-item" draggable="true" ondragstart="f_dragstart(event)" id="item1">家族</li>
