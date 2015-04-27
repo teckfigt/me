@@ -11,16 +11,16 @@
 |
 */
 
-/*Route::get('/', function()
+Route::get('/', function()
 {
-    return public_path().'home.html';
-});*/
-
+    include public_path().'/home.html';
+});
+/*
 Route::get('/', function()
 {
     include public_path().'/under/under.html';
 });
-
+*/
 Route::get('/register', function()
 {
     return view('register');
